@@ -22,7 +22,7 @@ View(sub_itemData_supplies)
 itemDetailsColumn<-c('itemCode','ItemQtyonHand','ItemReorderLvl')
 itemDetails = data.frame(matrix(nrow = 0, ncol = length(itemDetailsColumn)))
 colnames(itemDetails) = itemDetailsColumn
-View(itemDetails)
+
 itemDetails1<- c('1001','15','2')
 itemDetails2<- c('1002','10','2')
 itemDetails3<- c('1003','20','4')
