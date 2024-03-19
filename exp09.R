@@ -6,9 +6,9 @@ typeof(dataset)
 dataset
 nrow(dataset)
 ncol(dataset)
-max_salary = max(dataset$salary)
+max_salary=max(dataset$salary)
 max_salary
-max_salaries <- subset(dataset, dataset$salary == max(dataset$salary))
+max_salaries<-subset(dataset, dataset$salary == max(dataset$salary))
 max_salaries
 IT_Dept<-subset(dataset, dataset$department == 'IT')
 IT_Dept
