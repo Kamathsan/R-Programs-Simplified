@@ -8,7 +8,7 @@ itemList = list(item1,item2,item3,item4,item5)
 columns<-c('itemCode','itemCategory','itemPrice')
 itemData = data.frame(matrix(nrow = 0, ncol = length(columns)))
 colnames(itemData) = columns
-View(itemData)
+
 for(item in itemList){
  itemData[nrow(itemData)+1,]<-item
 }
