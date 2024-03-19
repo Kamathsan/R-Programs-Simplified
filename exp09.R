@@ -1,5 +1,5 @@
 setwd('')
-# Importing the dataset
+
 dataset = read.csv('input.csv')
 View (dataset)
 typeof(dataset)
@@ -15,6 +15,6 @@ IT_Dept
 salary_gt_value<-subset(dataset, dataset$salary > 20000)
 salary_gt_value
 write.csv(salary_gt_value,"output.csv", row.names = FALSE)
-#Append new line to dataframe
+
 dataset[nrow(dataset)+1,]<-list(nrow(dataset)+1,'2023001','XYZ','5000','01-01-2023','IT')
 View(dataset)
