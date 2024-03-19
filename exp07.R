@@ -16,8 +16,7 @@ View(itemData)
 #Create Required subsets
 sub_itemData_gt350<-subset(itemData, itemData$itemPrice >= 350)
 View(sub_itemData_gt350)
-sub_itemData_supplies<-subset(itemData, (itemData$itemCategory=='Office Supplies')
-|(itemData$itemCategory=='Desktop Supplies'))
+sub_itemData_supplies<-subset(itemData, (itemData$itemCategory=='Office Supplies')|(itemData$itemCategory=='Desktop Supplies'))
 View(sub_itemData_supplies)
 #CReate Seond Dataframe
 itemDetailsColumn<-c('itemCode','ItemQtyonHand','ItemReorderLvl')
